@@ -1,0 +1,72 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "svamp",
+  "dataset_size": 390461,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/ChilleD/SVAMP@5e0bf1e5e7c0e9c4bc39180d224f41f3f801b7ef/data/train-00000-of-00001.parquet": {
+      "num_bytes": 111457,
+      "checksum": null
+    },
+    "hf://datasets/ChilleD/SVAMP@5e0bf1e5e7c0e9c4bc39180d224f41f3f801b7ef/data/test-00000-of-00001.parquet": {
+      "num_bytes": 54769,
+      "checksum": null
+    }
+  },
+  "download_size": 166226,
+  "features": {
+    "ID": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Body": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Equation": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Answer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Type": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question_concat": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 556687,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 273253,
+      "num_examples": 700,
+      "dataset_name": "svamp"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 117208,
+      "num_examples": 300,
+      "dataset_name": "svamp"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

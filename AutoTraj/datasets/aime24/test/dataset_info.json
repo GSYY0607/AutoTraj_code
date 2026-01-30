@@ -1,0 +1,50 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "aime24",
+  "dataset_size": 13294,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/math-ai/aime24@c1478c0189140ab1117da295dcc689f1c109a4db/test-00000-of-00001.parquet": {
+      "num_bytes": 11183,
+      "checksum": null
+    }
+  },
+  "download_size": 11183,
+  "features": {
+    "id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "problem": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "solution": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "url": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 24477,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 13294,
+      "num_examples": 30,
+      "dataset_name": "aime24"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
